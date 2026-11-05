@@ -1,0 +1,57 @@
+
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer Intern",
+    "company": "TechNova Solutions",
+    "city": "Noida",
+    "stipend": 12000,
+    "remote": true,
+    "skills": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "id": 2,
+    "title": "Java Backend Developer Intern",
+    "company": "CodeCraft Technologies",
+    "city": "Greater Noida",
+    "stipend": 15000,
+    "remote": false,
+    "skills": ["Java", "Spring Boot", "MySQL"]
+  },
+  {
+    "id": 3,
+    "title": "Python AI Intern",
+    "company": "AI Innovators",
+    "city": "Bangalore",
+    "stipend": 18000,
+    "remote": true,
+    "skills": ["Python", "Machine Learning", "NumPy"]
+  },
+  {
+    "id": 4,
+    "title": "Full Stack Developer Intern",
+    "company": "WebWorks India",
+    "city": "Delhi",
+    "stipend": 10000,
+    "remote": false,
+    "skills": ["HTML", "CSS", "JavaScript", "Node.js"]
+  },
+  {
+    "id": 5,
+    "title": "Data Analyst Intern",
+    "company": "DataBridge",
+    "city": "Pune",
+    "stipend": 8000,
+    "remote": true,
+    "skills": ["Python", "SQL", "Excel", "Pandas"]
+  },
+  {
+    "id": 6,
+    "title": "React Developer Intern",
+    "company": "PixelSoft",
+    "city": "Mumbai",
+    "stipend": 16000,
+    "remote": true,
+    "skills": ["React", "JavaScript", "CSS", "HTML"]
+  }
+]
