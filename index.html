@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raasta Internship Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Raasta Internship Board</h1>
+        <p>Find internships that match your skills and interests.</p>
+    </header>
+
+    <main class="container">
+
+        <section class="filters" aria-label="Internship filters">
+
+            <label for="search">Search internships</label>
+            <input
+                type="search"
+                id="search"
+                placeholder="Search by title or skill..."
+            >
+
+            <label class="checkbox-label">
+                <input type="checkbox" id="remoteOnly">
+                Remote only
+            </label>
+
+            <label for="stipend">Minimum monthly stipend</label>
+            <select id="stipend">
+                <option value="0">Any stipend</option>
+                <option value="10000">₹10,000</option>
+                <option value="15000">₹15,000</option>
+            </select>
+
+        </section>
+
+        <p id="status" role="status" aria-live="polite">
+            Loading internships...
+        </p>
+
+        <div id="errorBox" hidden role="alert">
+            <p>Unable to load internships. Please try again.</p>
+            <button id="retryBtn" type="button">Try again</button>
+        </div>
+
+        <p id="resultCount" aria-live="polite"></p>
+
+        <section id="internshipList" class="internship-list"
+                 aria-label="Available internships" aria-busy="true">
+        </section>
+
+        <div id="emptyState" hidden>
+            <h2>No internships found</h2>
+            <p>Try changing your search or removing some filters.</p>
+            <button id="clearBtn" type="button">Clear filters</button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
